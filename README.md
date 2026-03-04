@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://nastaranrezaei99.github.io/simple-article-listing-master/}">
+    <a href="https://nastaranrezaei99.github.io/simple-article-listing-master/">
       Demo
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![Uploading image.png…]()
+<img width="1388" height="863" alt="image" src="https://github.com/user-attachments/assets/fc0c7a40-2d0c-4ccc-8c88-a2a8649aebd0" />
 
 
 This project is a responsive article listing page based on the provided design. It displays a list of technology-related articles with an image, title, and publication date, focusing on clean spacing and typography.

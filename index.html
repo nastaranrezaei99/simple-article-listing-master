@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+
+  <title>Simple Article Listing | devChallenges.io</title>
+
+  <style>
+    @font-face {
+      font-family: "poppin";
+      src: url(./fontes/Poppins/Poppins-SemiBold.ttf);
+      font-weight: 100 900;
+    }
+
+    @font-face {
+      font-family: "poppin2";
+      src: url(./fontes/Poppins/Poppins-Medium.ttf);
+      font-weight: 100 900;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-color: #F8FAFC;
+    }
+
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 16px;
+      color: rgb(55, 65, 81);
+    }
+
+    .author-info a {
+      text-decoration: none;
+    }
+
+    #header {
+      font-family: "poppin";
+      font-weight: 600;
+      font-size: 2.25rem;
+      text-align: center;
+      color: #000000;
+      max-width: 700px;
+      margin: 24px auto 0;
+    }
+
+    .header2 {
+      font-family: "poppin";
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #000000;
+      max-width: 510px;
+
+    }
+
+    .p2 {
+      color: #4D5562;
+      font-family: poppin2;
+      font-weight: 500;
+      font-size: 0.875rem;
+    }
+
+    #p1 {
+      font-family: "poppin2";
+      font-weight: 500;
+      font-size: 0.875rem;
+      color: #D9D9D9;
+      text-align: center;
+      margin: 24px auto 0;
+    }
+
+    #mainbox {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+    }
+
+    #imagebox {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-left: 400px;
+      padding-top: 30px;
+
+    }
+
+    #textbox {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+      padding-top: 50px;
+
+    }
+
+    .img {
+      border-radius: 10px;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="author-info">
+    Coded by <a href="#">Nastaran Rezaei</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+
+
+
+  </div>
+
+  <h1 id="header">We release interesting articles about technology</h1>
+  <p id="p1">/////////////////////</p>
+
+  <main id="mainbox">
+
+    <section id="imagebox">
+
+      <img src="./resources/photo_1@2x.png" class="img" width="150px" height="150px">
+      <img src="./resources/photo_2.png" class="img" width="150px" height="150px">
+      <img src="./resources/photo_3.png" class="img" width="150px" height="150px">
+
+    </section>
+
+
+    <section id="textbox">
+
+      <article class="text">
+        <h2 class="header2">Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</h2>
+        <p class="p2">November 12, 2024</p>
+      </article>
+
+      <article class="text">
+        <h2 class="header2">The Future of AI: How Machine Learning is Revolutionizing Industries</h2>
+        <p class="p2">November 12, 2024</p>
+      </article>
+
+      <article class="text">
+        <h2 class="header2">The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</h2>
+        <p class="p2">November 12, 2024</p>
+      </article>
+
+
+
+    </section>
+
+  </main>
+</body>
+
+</html>
